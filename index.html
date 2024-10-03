@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulation d'opérateur</title>
+</head>
+<body>
+    <h2 id="resultat"></h2>
+
+    <script>
+        let a = 10;
+        let b = 5;
+        let c = 10;
+
+        let d = a + b + c;
+        let e = a * b * c;
+        
+        // Somme
+        console.log('La somme des valeurs est : ' + d);
+
+        // Produit
+        alert('Le Produit des valeurs est de : ' + e);
+
+        // Multiplication de 1 à 9
+        for(let i = 1; i <= 9; i++) {
+            console.log('Table de ' + i);
+            for(let j = 1; j <= 9; j++) {
+                console.log(i + ' * ' + j + ' = ' + i * j);
+            }
+        }
+
+        // a + b diviser par c
+        console.log('La somme de a + b / c est : ' + (a + b) / c);
+    </script>
+</body>
+</html>
